@@ -26,7 +26,7 @@ eksctl create nodegroup --cluster=my-eks-cluster \
 --nodes-min=2 \
 --nodes-max=3\
 --node-volume-size=20 \
-eksctl create nodegroup --cluster=my-eks2 \
+eksctl create nodegroup --cluster=my-eks-cluster \
 --region-ap-south-1 \
 All
 --name=node2 \
